@@ -74,8 +74,8 @@
   </style>
   
 
-	</head>
-	<body>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 	
 <!-- Navbar -->
 <nav class="navbar navbar-default">
@@ -86,7 +86,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index.html">50+</a>
+      <a class="navbar-brand" id="#myPage" href="index.html">50+</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -142,23 +142,60 @@
 		<!-- END .fh5co-section -->
 
 		<div class="fh5co-section">
-			<div class="container">
+			<div class="container text-center">
+				<a href="#myPage" title="To Top">
+					<span class="glyphicon glyphicon-chevron-up"></span>
+				</a>
 				<div class="row">
-					<div class="col-md-4 col-sm-4 col-xs-12 section-heading">
-						<h2>Copyright</h2>
-					</div>
-					<div class="col-md-8 col-sm-8 col-xs-12">
+					<div class="col-md-12 col-sm-12 col-xs-12">
 						<p>50+ | 2019 | &copy; Todos os direitos reservados</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- END .fh5co-section -->
+		<!-- END .rodape -->
 
 	</div>
 	<!-- END .content -->
 
 </div>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
 
 </body>
 </html>

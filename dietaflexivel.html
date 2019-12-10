@@ -11,7 +11,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
   body {
-    font-family: Montserrat, sans-serif;
+	font-family: Montserrat, sans-serif;
     line-height: 1.8;
     color: #818181;
   }
@@ -139,7 +139,6 @@
     border-color: transparent;
     color: #fff !important;
   }
-
   .dropdown-toggle a {
     color: #f4511e !important;
     background-color: #fff !important;
@@ -160,12 +159,18 @@
     color: #f4511e !important;
     background-color: #fff !important;
   }
-
   footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
     color: #f4511e;
   }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
   .slideanim {visibility:hidden;}
   .slide {
     animation-name: slide;
@@ -210,25 +215,6 @@
     }
   }
   </style>
-  
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '445529892778483');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=445529892778483&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -248,8 +234,8 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">SOBRE
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#submenuDieta">Dieta Flexível</a></li>
-            <li><a href="#submenuCaio">Caio Bottura</a></li>
+            <li><a href="dietaflexivel.html">Dieta Flexível</a></li>
+            <li><a href="caiobottura.html">Caio Bottura</a></li>
           </ul>
         </li>
         <li><a href="produtos.html">PRODUTOS</a></li>
@@ -260,104 +246,19 @@
   </div>
 </nav>
 
-<div class="jumbotron text-center">
-  <br>
-  <h1>Olá, tudo bem?</h1> 
-  <p>Quase tudo pronto! Conheça mais sobre a Dieta Flexível abaixo ou clique <a href="produtos.html">AQUI</a> para comprar um ou todos os livros do Caio Bottura!</p> 
-</div>
-
-<div id="videos" class="container-fluid text-center">
-  <p>Você não precisa parar de viver, de sair com sua família e curtir seus amigos porque está fazendo dieta!</p>
-  <p>Tenha a liberdade de criar o seu próprio cardápio e permita-se a comer tudo o que você gosta!</p>
-  <p>Ganhe consistência e resultados! Veja abaixo alguns videos disponíveis no canal do Caio Bottura.</p><br>
-  <div class="row text-center slideanim">
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <iframe width="250" height="150" src="https://www.youtube.com/embed/nh36Vwdt2Fc"></iframe>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <iframe width="250" height="150" src="https://www.youtube.com/embed/t1C5KBozhok"></iframe>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <iframe width="250" height="150" src="https://www.youtube.com/embed/-tXEVcXdm4I"></iframe>
-      </div>
-    </div>
-	<br><a class="btn btn-default btn-lg" href="produtos.html" role="button">Compra agora!</a><br>
-  </div>
-</div>
-
-<div id="submenuDieta" class="container-fluid bg-grey text-justify">
+<div id="dietaflexivel" class="container-fluid text-justify">
   <div class="row">
-	<div class="col-sm-8">  
+	<div class="col-sm-6">  
       <h2>O que é a Dieta Flexível?</h2><br>
 		<p>Dieta flexível é uma alimentação em que se caracteriza pela ingestão de alimentos, tomando como base atingir as metas de macronutrientes, ou seja, carboidratos, gorduras, proteínas e fibras. Nos Estados Unidos, a dieta flexível é conhecida como IIFYM, (If it fit your macros) e é bem comum fisioculturistas e entre outros atletas no exterior adotar esse método. E o que torna a Dieta Flexível tão especial? A especialidade da dieta flexível é o fato de poder comer besteiras como "subtítulos". Para ser mais exato não é exatamente uma substituição de alimentos bons por ruins, e sim deixar uma certa porcentagem calórica, por exemplo, 20% do valor total das calorias, para uma refeição livre.</p>
-		<br><a class="btn btn-default btn-lg" href="produtos.html" role="button">Compre agora!</a><br>
+		<!--<br><button class="btn btn-default btn-lg">Veja nosso Produtos!</button>-->
+		<br><a class="btn btn-default btn-lg" href="produtos.html" role="button">Veja nossos Produtos!</a><br>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-6">
 	  <div class="img-rounded img-responsive">
         <img src="img/dieta_flexivel.jpg" alt="" style="width:100%">
       </div>
 	</div>
-  </div>
-</div>
-
-<div id="produtos" class="container-fluid text-center">
-  <h2>PRODUTOS</h2><br>
-  <div class="row text-center slideanim text-justify">
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="img/dieta_9.jpg" alt="" width="200" height="150">
-		<h4>Dieta Flexível e Nutrição 2ª Edição</h4>
-		<p><strong>R$55,00</strong></p>
-		<p style="text-align: justify;">Esta é a segunda edição do E-BOOK sobre dieta flexível, você não precisa ter a primeira para comprar esta pois esta é uma revisão mais completa da primeira. Este livro foi aprovado por um nutricionista e com ele você vai aprender tudo sobre dieta e como montar a sua para o seu objetivo. Você vai aprender a fisiologia de cada macronutriente e a importância de cada um e também quais suplementos funcionam e você deve tomar.</p>
-        <button class="btn btn-default btn-lg">Compre agora!</button>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="img/dieta_7.jpg" alt="" width="200" height="150">
-		<h4>O Guia do Emagrecimento Saudável</h4>
-        <p><strong>R$29,90</strong></p>
-        <p style="text-align: justify;">Este e-book te dá todo o conhecimento e ferramenta necessárias para você perder peso da melhor maneira possível. Nele o leitor mais leigo vai entender como corpo perde peso e ser capaz de criar sua meta de macronutrientes e dieta de acordo com seu objetivo. É um guia definitivo, ou seja, resultados certos se você seguir as instruções, e você NÃO vai precisar zerar carbo ou se privar de comidas que tanto gosta no seu dia a dia.</p>
-		<button class="btn btn-default btn-lg">Compre agora!</button>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="img/dieta_6.jpg" alt="" width="200" height="150">
-		<h4>Pacote Livros Caio Bottura</h4>
-        <p><strong>R$120,00</strong></p>
-        <p style="text-align: justify;">Este pacote contém os três livros do atleta profissional Caio Bottura. Milhares de pessoas já adquiriram os livros e tiveram transformações impressionantes! O conteúdo dos livros é de alta qualidade com mais de 300 referências de livros, artigos científicos e meta-análises que Caio usa para ensinar como se fazer uma dieta, treino e suplementação da maneira mais eficaz possível, baseado 100% em evidência científica.</p>
-		<button class="btn btn-default btn-lg">Compre agora!</button>
-      </div>
-    </div>
-  </div><br>
-</div>
-
-<div id="submenuCaio" class="container-fluid bg-grey text-justify">
-  <div class="row">
-    <div class="col-sm-8">
-      <h2>Quem é a Caio Bottura?</h2><br>
-      <p>Caio Bottura é fisiculturista profissional natural nos Estados Unidos pela federação NGA. Formado em Strength and Conditioning e Personal Training pela Universidade de Findlay em Ohio.</p>
-	  <p>Você provavelmente deve conhece-lo de algum vídeo do Youtube, Caio começou a criar conteúdo específico sobre dieta e musculação em 2014 e hoje conta com mais de 1 milhão de seguidores, foi um dos primeiros a disseminar a ciência da dieta flexível na internet Brasileira e é muito conhecido pelos seus livros que já ajudaram milhares de pessoas a atingirem seus resultados desejados sozinhas.</p>
-      <br><a class="btn btn-default btn-lg" href="produtos.html" role="button">Compre agora!</a><br>
-    </div>
-    <div class="col-sm-4">
-	  <div class="img-rounded img-responsive">
-        <img src="img/caio.jpg" alt="" style="width:100%">
-      </div>
-	</div>
-  </div>
-</div>
-
-<div id="contato" class="container-fluid text-center">
-  <h2 class="text-center">CONTATO</h2>
-      <p>Dúvidas? Como posso te ajudar?</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> mente.corpo.flexivel@gmail.com</p>
   </div>
 </div>
 

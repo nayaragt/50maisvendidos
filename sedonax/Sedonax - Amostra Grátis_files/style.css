@@ -1,0 +1,1087 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  font-family:   Open Sans,  sans-serif!important;
+  color: #4a4a4a;
+}
+.bg {
+
+    background-image: url('../img/bg.svg');
+    background-position: top center;
+     background-repeat: no-repeat;
+     background-position-y:-650px;
+     background-size: 1920px;
+}
+.bgAmostra {
+    background-image: url('../img/bg.svg');
+    background-position: top center;
+     background-repeat: no-repeat;
+     background-position-y:-810px;
+     background-size: 1920px;
+}
+.quemusa h1{
+   font-family: Raleway;
+   font-weight: 800;
+   letter-spacing: -0.06rem;
+   font-size: 48px;
+}
+.titNovoAmostra{
+    font-size: 30px;
+  letter-spacing: -0.10rem;
+   font-weight: 900;
+}
+.de-span {
+    color: #ff0000;
+    text-decoration: line-through;
+    letter-spacing: -0.02em;
+}
+.por-span {
+    font-size: 36px;
+    letter-spacing: -0.02em;
+}
+.preco{
+  font-size: 20px;
+  line-height: 1.2;
+   font-weight: 600;
+}
+.subtitNovoAmostra{
+  font-size: 20px;
+   letter-spacing: -0.05rem;
+   font-weight: 900;
+}
+.quemusa .tit1{
+    font-size: 40px;
+  letter-spacing: -0.15rem;
+   font-weight: 400;
+}
+.branco{
+  color: #fff;
+}
+.amarelo1{
+  color: #F6BF34;
+}
+.amarelo2{
+  color: #EDCE7A;
+}
+.amarelo3{
+  /*color: #fbb70b;*/
+  color:#ffca01;
+}
+.amarelo4{
+  color: #F6BF34;
+}
+.roxo1{
+  color: #5B1E7F;
+}
+.roxo2{
+  color: #9F3C94;
+}
+
+.rosa{
+  color: #DD2783;
+}
+.cinza{
+  color: #B7B7B7;
+}
+.cinzaEscuro{
+  color: #666 ;
+}
+.check{
+  font-size: 20px;
+}
+.top5{
+  padding-top: 5px;
+}
+.top10{
+  padding-top: 10px;
+}
+.top20{
+  padding-top: 20px;
+}
+.top30{
+  padding-top: 30px;
+}
+.top40{
+  padding-top: 40px;
+}
+.top50{
+  padding-top: 50px;
+}
+.top80{
+  padding-top: 80px;
+}
+.top90{
+  padding-top: 90px;
+}
+.bottom15{
+  padding-bottom: 15px;
+}
+.bottom20{
+  padding-bottom: 20px;
+}
+.bottom30{
+  padding-bottom: 30px;
+}
+.bottom40{
+  padding-bottom: 40px;
+}
+.bottom50{
+  padding-bottom: 50px;
+}
+.left50{
+  padding-left: 50px;
+}
+.far {
+    font-weight: 600;
+}
+.header-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+.bg-color {
+    background-color:#5B1E7F;
+}
+.bannerDesafio {
+    background-image: url(../img/bg.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+header .bg-header {
+ /* background: linear-gradient(45deg,#5B1E7F 0%,#64218A 100%);*/
+}
+header .bg-header img{
+    width:100%;
+    max-width:150px;
+}
+#blocoSub .titPrincipal {
+       font-family: Open Sans;
+    font-weight: 600;
+    letter-spacing: -0.06rem;
+        font-size: 30px;
+  line-height: 2.4rem;
+  
+}
+#blocoSub  .tit{
+font-family: Open Sans;
+    font-weight: 700;
+    letter-spacing: -0.06rem;
+    font-size: 34px;
+
+}
+#topoAmostra2 h1 {
+    line-height: 44px;
+    letter-spacing: 0;
+    font-weight: 700;
+    font-size: 38px;
+    letter-spacing: -0.12rem;
+}
+#topoAmostra2 .fundo {
+  background-color: #F95DE7;
+  color: #fff;
+  padding: 0 10px 0 8px;
+}
+
+.fundoLetraRoxo {
+  background-color: #8849C6;
+  color: #fff;
+  padding: 0 10px 0 8px;
+}
+
+#topoAmostra h1 {
+       font-family: Open Sans;
+    font-weight: 600;
+    letter-spacing: -0.06rem;
+    font-size: 32px;
+    margin-bottom: 0;
+    max-width: 900px;
+}
+#topoAmostra  h3{
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+#topoAmostra  h2 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+      margin-bottom: 0;
+}
+#topo h3{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+#topo h1 {
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: -0.06rem;
+    font-size: 42px;
+    margin-bottom: 0;
+}
+#topo h2 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+      margin-bottom: 0;
+}
+#topo .lista {
+    font-size: 20px;
+    margin: 0 0 5px 0;
+}
+
+.small{
+   font-weight: 300;
+   font-size: 15px;
+}
+.verysmall{
+   font-weight: 300;
+   font-size: 12px;
+}
+.fundo img {
+
+    position: absolute;
+    bottom:29%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    -o-object-position: bottom;
+    object-position: bottom;
+    -o-object-fit: fill;
+    object-fit: fill;
+    z-index: -1;
+
+}
+
+.superbig {
+    padding: 20px 28px;
+}
+.btn-verde {
+    background: #74be33;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.05);
+    text-shadow: 2px 1px 3px rgba(0,0,0,0.04);
+    border: none;
+    border-bottom: 4px solid #5b9628;
+    transition: all .1s ease-in-out;
+
+}
+.btn-verde:hover {
+    color: #fff;
+     background: #65a62d;
+    border-bottom: 4px solid #6fb631;
+}
+
+.recomenda{
+  border-radius: 35px 60px;
+}
+.barraCinza{
+background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: screen;
+  min-height: 300px;
+}
+.barraRoxa{
+
+background: linear-gradient(130deg, #93378F 0%, #5B1E7F 60%, #64218A 100%);
+  min-height: 300px;
+}
+.barraRoxa2{
+
+background: linear-gradient(160deg, #64218A 0%, #5B1E7F 60%, #7D387F 100%);
+  min-height: 300px;
+}
+.barraAmarela{
+  background: linear-gradient(#F7BA0B, #E9B009);
+}
+.fontBack{
+  background: #5B1E7F;
+}
+
+.blocoAmostra h1{
+    font-family: Open Sans;
+    font-weight: 600;
+    letter-spacing: -0.06rem;
+    font-size: 36px;
+        line-height: 1.2;
+}
+.blocoAmostra .subtitle {
+    font-size: 32px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    padding: 5px 0 0 0;
+}
+.bloco .lista {
+    font-size: 20px;
+    margin: 0 0 5px 0;
+}
+
+.bloco .col-lg-4 {
+  margin-bottom: 1.5rem;
+}
+.bloco h2 {
+  font-weight: 400;
+}
+.bloco .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.bloco .titAmostra {
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: -0.06rem;
+    font-size: 44px;
+        line-height: 1;
+}
+.bloco .titAmostraMenor {
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: -0.06rem;
+    font-size: 40px;
+        line-height: 1;
+}
+.bloco h1 {
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: -0.06rem;
+    font-size: 45px;
+        line-height: 1;
+}
+
+.amostra p{
+  font-size: 18px;
+}
+.bloco h10 {
+    font-family: Open Sans;
+    font-weight: 600;
+    letter-spacing: -0.09rem;
+    font-size: 40px;
+    line-height: 1;
+}
+.bloco .tit10{
+      font-family: Open Sans;
+    font-size: 38px;
+  letter-spacing: -0.09rem;
+   font-weight: 600;
+ 
+}
+.bloco h11 {
+    font-family: Open Sans;
+    font-weight: 700;
+    letter-spacing: -0.09rem;
+    font-size: 40px;
+    line-height: 1;
+}
+.bloco .tit11{
+      font-family: Open Sans;
+    font-size: 38px;
+  letter-spacing: -0.09rem;
+   font-weight: 700;
+ 
+}
+.bloco .tit1{
+    font-size: 42px;
+  letter-spacing: -0.06rem;
+   font-weight: 600;
+
+}
+
+.bloco .tit2{
+    margin: 20px 0 10px 0;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: -0.05rem;
+    line-height: 1.2;
+}
+.bloco .tit4{
+    margin: 20px 0 10px 0;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: -0.05rem;
+    line-height: 1.2;
+}
+.bloco .tit3{
+    font-size: 28px;
+  letter-spacing: -0.06rem;
+   font-weight: 600;
+   padding-bottom: 5px;
+}
+.bloco .subtitle {
+    font-size: 22px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    padding: 5px 0 0 0;
+}
+.bloco .subtitle2 {
+    font-size: 19px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    padding-left: 60px;
+}
+.bloco .subtitle3 {
+    font-size: 19px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+}
+.bloco .midia{
+   font-size: 16px;
+   font-style: italic;
+}
+
+.divider {
+  margin: 5rem 0;
+}
+.alinhaL {
+    text-align: left;
+
+}
+.alinhaLAmostra{
+   text-align: left;
+}
+
+.alinhaR {
+    text-align: right;
+}
+
+.card .title-perguntas {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(89, 89, 89);
+    text-decoration: none;
+    text-align: left;
+}
+
+.card .btn:hover, .btn:active,  .btn:focus {
+    text-decoration:none;
+  outline:0;
+  
+}
+.card .ico {
+    color: #9F3C94;
+    margin-right: 5px;
+    font-size: medium;
+}
+.card .ico2 {
+    color: #fbb70b;
+    margin-right: 5px;
+    font-size: medium;
+}
+
+.card {
+
+
+    text-align: left;
+    margin-bottom: 12px;
+    color: rgb(83, 83, 83);
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 0px;
+}
+.card-header {
+
+    padding:10px;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.04);
+    border-bottom: 1px solid rgba(0,0,0,.03);
+}
+.card-body{
+     font-weight: 400;
+   background-color: rgba(0,0,0,.04);
+}
+
+.formula{
+  font-size: 18px
+}
+.porque .tit2{
+  font-size: 20px;
+}
+
+.mostraPorque .tit2{
+  font-size: 15px;
+  font-weight: 400;
+}
+.mostraPorque .tit4{
+  font-size: 15px;
+  font-weight: 400;
+}
+.mostraPorque .check{
+  font-size: 14px
+}
+/* INFO
+-------------------------------------------------- */
+.info{
+    padding: 50px 0 50px 0;
+}
+.info .title {
+    font-size: 16px;
+    padding-bottom: 20px;
+    maring: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.info .btn-zap {
+    background: #74be33;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 8px rgba(0,0,0,.05);
+    text-shadow: 2px 1px 3px rgba(0,0,0,.04);
+    border: none;
+    border-bottom: 4px solid #5b9628;
+    transition: all .1s ease-in-out;
+}
+.info .btn-zap:hover{color:#fff;background:#65a62d;border-bottom:4px solid #6fb631}
+
+.info .espacoTopoMenor {
+    padding-top: 15px;
+}
+
+/* RODAPE
+-------------------------------------------------- */
+
+
+.bg1 {
+    background-color:  #3c035d!important;
+}
+.bg2 {
+    background-color: #360154!important;
+}
+.footer-social {
+    padding-top: 3px;
+    text-align: right;
+}
+.footer-social i {
+    font-size: 24px;
+    vertical-align: middle;
+}
+.footer-social a {
+    margin-left: 20px;
+    color: #fff;
+    border: 0;
+}
+.footer-copyright {
+    padding-top: 10px;
+  font-size: 14px;
+    color: #fff;
+}
+  
+footer img {
+    max-width: 100px;
+}
+footer hr{
+   background:transparent;
+}
+
+.espacoleft {
+    padding-left: 50px;
+}
+.linkRodape{
+  line-height: 1.6;
+}
+.linkRodape a {
+    color: #fff;
+}
+.linkRodape a:hover {
+  text-decoration:none;
+  color:#EDCE7A;
+}
+
+.item-depo img {
+    transform: scale(0.9);
+    transition: all 0.2s ease-in-out;
+    border-radius: 20px;
+    width: 100%;
+}
+
+  .alinhaConheca{
+    text-align: right;
+  }
+  .imgConheca{
+    max-width: 110%;
+  }
+  .mostraConheca{
+    display: block;
+  }
+   .escondeConheca{
+    display: none;
+  }
+    .mostra90{
+    display: block;
+  }
+   .esconde90{
+    display: none;
+  }
+     .img90{
+    max-width: 110%;
+  }
+  .card .foto{
+    width:100%; border-radius: 20px 20px 0 0;
+  }
+  .card .fundo{
+    text-align:center; padding:20px 20px 20px 20px; background:#5F2D7E; border-radius: 0 0 20px 20px;
+  }
+  .card .card-body .fundo {
+    font-weight: 400;
+    color: #fff;
+    text-align:center;
+   background:#5F2D7E; border-radius: 0 0 20px 20px;
+
+}
+  .card .coment{
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #fff;
+  }
+    .card .title{
+    font-weight: 600;
+    color: #fff;
+  }
+  .escondePorque{
+  display: block;
+}
+.mostraPorque{
+  display: none;
+}
+ .mobile {
+    display: none;
+  }
+
+#obrigado .title {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 0;
+        letter-spacing: -0.06rem;
+}
+#obrigado .title2 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #fff;
+
+}
+#obrigado .atento{
+  text-align:center;font-size:36px;color:#74B61C;
+  font-weight: 900;
+  letter-spacing: -0.06rem;
+}
+#obrigado .ligar{
+color:#CD1F1F; font-weight:bold; font-size:28px;
+font-weight: 900;
+  letter-spacing: -0.06rem;
+}
+.vermelho {
+    color: #ff3860;
+}
+.medio {
+    font-size: 1.15rem;
+    font-weight: 700;
+    max-width: 550px;
+}
+.section-price {
+    position: relative;
+    max-width: 380px;
+    margin: 0 auto;
+}
+.arrow-top-vendas-left {
+    position: absolute;
+    width: 70px;
+    transform: rotate(48deg);
+    bottom: 4px;
+    left: 4%;
+}
+.arrow-top-vendas-right {
+    position: absolute;
+    width: 70px;
+    transform: rotate(-48deg);
+    bottom: 4px;
+    right: 3%;
+}
+.pequena {
+    font-size: 0.9rem;
+}
+.subtitle.is-5 {
+    font-size: 1.25rem;
+        margin-bottom: 00;
+
+}
+.line {
+    text-decoration: line-through;
+    color: #ccc;
+}
+.big {
+    font-size: 4.0rem;
+    color: #4a4a4a;
+     letter-spacing: -0.3rem;
+     padding-top:0;
+     font-weight: 700;
+
+}
+.bigmenor {
+    font-size: 1.5rem;
+    color: #4a4a4a;
+     letter-spacing: -0.05rem;
+}
+#obrigado h1 {
+    line-height: 44px;
+    letter-spacing: 0;
+    font-weight: 700;
+    font-size: 38px;
+    letter-spacing: -0.12rem;
+}
+#obrigado .fundo {
+  background-color: #F95DE7;
+  color: #fff;
+  padding: 0 10px 0 8px;
+}
+
+}
+  @media (max-width: 1199px) and (min-width: 991px) {
+      .img90 {
+    max-width: 140%;
+  } 
+  .imgConheca {
+    max-width: 140%;
+  } 
+  .bg {
+     background-position-y:-680px;
+  }
+
+ 
+}
+ 
+@media (max-width: 991px) {
+  .big {
+    font-size: 3.0rem;
+    color: #4a4a4a;
+     letter-spacing: -0.3rem;
+     padding-top:0;
+     font-weight: 700;
+
+}
+.pequena {
+    font-size: 0.8rem;
+}
+.subtitle.is-5 {
+    font-size: 1.05rem;
+        margin-bottom: 00;
+}
+.arrow-top-vendas-left {
+    position: absolute;
+    width: 60px;
+    transform: rotate(48deg);
+    bottom: 4px;
+    left: 6%;
+}
+.arrow-top-vendas-right {
+    position: absolute;
+    width: 60px;
+    transform: rotate(-48deg);
+    bottom: 4px;
+    right: 3%;
+}
+  #obrigado h1 {
+    font-size: 24px;
+    line-height: 32px;
+}
+  #obrigado .title {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 0;
+        letter-spacing: -0.06rem;
+}
+#obrigado .title2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+
+}
+#obrigado .atento{
+  text-align:center;font-size:23px;color:#74B61C;
+  font-weight: 900;
+  letter-spacing: -0.06rem;
+}
+#obrigado .ligar{
+color:#CD1F1F; font-weight:bold; font-size:20px;
+font-weight: 900;
+  letter-spacing: -0.06rem;
+  line-height: 24px;
+}
+  body {
+    font-family: Open Sans, sans-serif!important;
+  }
+   .mobile {
+    display: block;
+  }
+  .alinhaR{
+      text-align: center;
+  
+}
+  .nopadding {
+   padding: 0 2px 0 2px !important;
+}
+.bloco .lista {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+}
+.alinhaLAmostra {
+    text-align: center;
+
+}
+
+  #topoAmostra2 .fundo {
+  padding: 0 8px 0 5px;
+}
+  #topoAmostra2 h1 {
+     font-size: 26px;
+     line-height: 29px;
+     letter-spacing: 0.10;
+  }
+  .alinhaConheca{
+    text-align: center;
+  }
+  .espacoMobile{
+    padding: 5px 0 5px 0;
+  }
+  .top30Mobile{
+    padding-top: 30px;
+  }
+  .bottom20Mobile{
+    padding-bottom: 20px;
+  }
+  .desktop {
+    display: none;
+  }
+  .navbar{
+    padding-top: 10px;
+  }
+  #topo h3 {
+    font-size: 16px;
+    padding-bottom: 3px;
+    letter-spacing: 0;
+  }
+  #topo h1 {
+    font-size: 31px;
+    padding-bottom: 5px;
+    letter-spacing: 0;
+  }
+  #topo h2 {
+    font-size: 19px;
+    letter-spacing: 0;
+  }
+  #topo .lista {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+  }
+  .top30{
+    padding-top: 10px;
+  }
+  .bottom30{
+    padding-bottom: 10px;
+  }
+  .superbig{
+    padding: 20px 20px;
+    letter-spacing: -0.02rem;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .bloco .tit1 {
+    font-size: 24px;
+    padding-bottom: 2px;
+    font-weight: 600;
+  }
+
+ .bloco .tit10 {
+    font-size: 24px;
+  }
+  .bloco h1{
+    font-size: 28px;
+  }
+  .bloco h10{
+     font-size: 26px;
+  }
+  .bloco .subtitle {
+    font-size: 18px;
+  }
+  .bloco .subtitle2 {
+    padding-left: 0px;
+}
+.small {
+    font-size: 14px;
+}
+  .bg {
+    background-position-y: -430px;
+  }
+   .espacoTopoMobileZero{
+    padding-top: 0px;
+  }
+  .espacoTopoMobileMenor{
+    padding-top: 10px;
+  }
+      .espacoTopoMobileMedio{
+    padding-top: 20px;
+  }
+    .espacoTopoMobileMaior{
+    padding-top: 40px;
+  }
+  .zera{
+    padding-top: 0;
+  }
+  .espacoleft{
+    padding-left: 30px;
+  }
+  .espacoRodapeMaior{
+    padding-bottom: 40px;
+  }
+    .espacoRodapeMedio{
+    padding-bottom: 30px;
+  }
+      .espacoRodapeMenor{
+    padding-bottom: 20px;
+  }
+    .bloco .tit2 {
+    margin: 15px 0 5px 0;
+  }
+    .imgConheca{
+    max-width: 100%;
+  }
+      .img90{
+    max-width: 100%;
+  }
+
+  .formula{
+    font-size: 16px;
+  }
+
+
+  .bloco .col-lg-4 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+    padding: 0;
+}
+
+.alinhaL{
+      padding-left: 30px;
+}
+.alinhaLAmostra{
+
+}
+.footer .alinhaL{
+      text-align: center;
+      padding-left: 0px;
+}
+.footer .alinhaR{
+      text-align: center;
+      padding-left: 0px;
+}
+.escondePorque{
+  display: none;
+}
+.mostraPorque{
+  display: block;
+}
+.grupoFoto{
+  max-width: 93%;
+}
+  .mostraConheca{
+    display: none;
+  }
+
+  .escondeConheca{
+    display: block;
+  }
+
+  .mostra90{
+    display: none;
+  }
+
+  .esconde90{
+    display: block;
+  }
+  .top20Mais{
+  padding-top: 20px;
+}
+  .top30Mais{
+  padding-top: 30px;
+}
+  .top40Mais{
+  padding-top: 40px;
+}
+  .top10Mais{
+  padding-top: 10px;
+}
+.titNovoAmostra {
+    font-size: 25px;
+}
+.maximoAmostra{
+  max-width: 250px;
+}
+.subtitNovoAmostra {
+    font-size: 20px;
+    letter-spacing: -0.05rem;
+    font-weight: 900;
+    line-height: 130%;
+}
+
+
+
+}
+
+ @media (max-width: 991px) and (min-width: 767px) {
+     .bg {
+     background-position-y:-730px;
+     }
+           .espacoTopoMobileMedio{
+    padding-top: 0px;
+  }
+
+  }
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .header-heading {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 62em) {
+   .header-heading {
+        margin-top: 2rem;
+  
+  }
+}
+
+
+

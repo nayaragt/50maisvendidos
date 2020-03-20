@@ -16,7 +16,7 @@
 	}
 	
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    /* .row.content {height: 450px} */
+    .row.content {height: 50px}
     
     
     /* Set black background color, white text and some padding */
@@ -29,6 +29,10 @@
       bottom: 0;
       width: 100%;
     }
+	
+	.video img {
+		vertical-align: middle; !important
+	}
     
 
   </style>
@@ -57,30 +61,33 @@
   
 <div class="container">    
 
-  <div class="row content">
-    <div class="col-sm-12 text-center"> 
-        <h1>Quase lá! Em 5 minutos seu E-book chegará no seu e-mail.</h1>
-        <h2>Enquanto espera, assista o vídeo abaixo porque...</h2>	
+  <div class="row">
+	<div class="col-sm-4 text-center">
+		<img src="ebook-cover.png" alt="" width="146" class="margin-auto">
+	</div>
+    <div class="col-sm-8 text-center"> 
+        <h3>Quase lá! Em 5 minutos seu E-book chegará no seu e-mail.</h3>
+        <h3>Enquanto espera, assista o vídeo abaixo porque...</h3>	
     </div>
   </div>
   
-<div style="text-align:center"> 
-<video id="myVideo" width="320" height="176" autoplay>
-  <source src="sedonax.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
-</div>
-</br>
-<div style="text-align:center">
-<a class="btn btn-success btn-lg" href="https://ev.braip.com/campanhas/cpa/camq8okj" role="button">Eu quero experimentar agora! R$29,90 ou 4 x R$8,04</a>
-</div>
+  <div class="text-center"> 
+	<video id="myVideo" width="320" height="176" autoplay muted>
+	<source src="sedonax.mp4" type="video/mp4">
+	Your browser does not support HTML5 video.
+	</video>
+  </div>
 
 </br>
+
+<div class="row content" style="text-align:center">
+	<a class="btn btn-success btn-lg" href="https://ev.braip.com/campanhas/cpa/camq8okj" role="button">Eu quero experimentar agora!</a>
+</div>
+
 </br>
 
 <footer class="container-fluid text-center">
-	<img src="eu-linda-sim-todos-os-dias.png" alt="" width="120" class="margin-auto img-circle">
-    <p>© Todos os direitos reservados</p>
+    <p>Eu linda sim, todos os dias! © Todos os direitos reservados</p>
 </footer>
 
 	

@@ -1,42 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-  <title>Guia completo - Como evitar queda de cabelo</title>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
     
-	body {
-	background-color: #ECEEED;
-	color: #545454;
-	padding: 50px;
-	}
-	
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 50px}
-    
-    
-    /* Set black background color, white text and some padding */
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
     footer {
-      background-color: #6F6358 ;
-      color: white;
-      padding: 15px;
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
+      background-color: #f2f2f2;
+      padding: 25px;
     }
 	
-	.video img {
-		vertical-align: middle; !important
-	}
-    
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
   </style>
-  
+</head>
+
 <!-- Facebook Pixel Code -->
 <script>
   !function(f,b,e,v,n,t,s)
@@ -48,7 +65,7 @@
   s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '854697188284280');
-  fbq('track', 'Pageview'); 
+  fbq('track', 'Pageview');
   fbq('track', 'ViewContent');
 </script>
 <noscript><img height="1" width="1" style="display:none"
@@ -56,51 +73,53 @@
 /></noscript>
 <!-- End Facebook Pixel Code -->
 
-</head>
 <body>
 
-  
-<div class="container">    
+<div class="jumbotron">
+  <div class="container text-justify">
+    <h1>✅ Quase lá! Basta clicar para acessar...</h1>      
+    <p>Olá, tudo bem? Vim entregar o seu E-book! Lembrando que nele você vai encontrar o guia completo para evitar queda de cabelo, causas e tratamentos, dúvidas frequentes, e muito mais!</p>
+  </div>
+</div>
 
+</br></br>
+
+<div class="container">    
   <div class="row">
-	<div class="col-sm-4 text-center">
-		<img src="ebook-cover.png" alt="" width="146" class="margin-auto">
-	</div>
-    <div class="col-sm-8 text-justify"> 
-        <p>✅ Quase lá! Basta clicar para acessar...</p>
-		</br>
-		<p>Olá, tudo bem? Vim entregar o seu E-book! Lembrando que nele você vai encontrar o guia completo para evitar queda de cabelo, causas e tratamentos, dúvidas frequentes, e muito mais!</p>
-		<p><a href="https://50maisvendidos.com/eulindasimtodososdias/ebook-guia-completo-como-evitar-queda-de-cabelo.pdf" data-toggle="tooltip" title="e-book">Quero meu E-book AGORA! 👉 Clique aqui e comece a ler agora mesmo!</a></p> 
-		<p>Espero que goste, leia com muito carinho que vai te ajudar!</>
-		<p>Um grande abraço, Eu linda sim, todos os dias!</p>
-		</br>
-        <p>Ahh, já estava esquecendo, não deixe de assistir o vídeo abaixo porque o seu tratamento ANTI-QUEDA pode começar agora! O único produto do mercado que possui a fórmula exclusiva NAX-17D, que contém os 17 elementos, que são responsáveis por parar a Queda Capilar e Acelerar o Crescimento dos seus Cabelos em até 6x!</p>
-		<p>😍<strong>Tratamento Inicial por 10 dias apenas R$29,90 ou 4 x R$8,04.</strong></p>
+    <div class="col-sm-6 text-center">
+      <div class="panel panel-success">
+        <div class="panel-heading">E-book Guia Completo</div>
+        <div class="panel-body"><img src="ebook-cover.png" class="img-responsive margin-auto center" width="156" alt="Image"></div>
+        <div class="panel-footer">
+			<p>🎯 7 Dúvidas respondidas por especialista </br> ✅ O que eu fiz e funcionou? </br> 😍 Baixe seu E-book agora!</p> 
+			<a class="btn btn-warning btn-lg" href="https://50maisvendidos.com/eulindasimtodososdias/ebook-guia-completo-como-evitar-queda-de-cabelo.pdf" role="button">Quero meu E-book AGORA!</a>
+		</div>
+      </div>
+    </div>
+    <div class="col-sm-6 text-center"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">Sedonax - Tratamento antiqueda</div>
+        <div class="panel-body"><img src="2new.png" class="img-responsive margin-auto center" width="156" alt="Image"></div>
+        <div class="panel-footer">
+			<p>O seu tratamento ANTI-QUEDA pode começar agora! O único produto do mercado que possui a fórmula exclusiva NAX-17D, que contém os 17 elementos, que são responsáveis por parar a Queda Capilar e Acelerar o Crescimento dos seus Cabelos em até 6x!</p>
+		<p>😍<strong>Tratamento Inicial por 10 dias apenas R$29,90 ou 4 x R$8,04.</strong></p>	
+		<a class="btn btn-warning btn-lg" href="https://ev.braip.com/campanhas/cpa/camq8okj" role="button">Eu quero experimentar AGORA!</a>		
+		</div>
+      </div>
     </div>
   </div>
-  
-  <div class="text-center"> 
-	<video id="myVideo" width="320" height="176" autoplay muted>
-	<source src="sedonax.mp4" type="video/mp4">
-	Your browser does not support HTML5 video.
-	</video>
-  </div>
+</div><br>
 
-</br>
-
-<div class="row content" style="text-align:center">
-	<a class="btn btn-warning btn-lg" href="https://ev.braip.com/campanhas/cpa/camq8okj" role="button">Eu quero experimentar agora!</a>
+<div>
+<a href="https://api.whatsapp.com/send?phone=447771273894&text=Olá%21%20Gostaria%20de%20mais%20informações%20sobre%20o%20SEDONAX." class="float" target="_blank"><i class="fa fa-whatsapp my-float"></i></a>
 </div>
 
-</br>
 
-<!--
 <footer class="container-fluid text-center">
-    <p>Eu linda sim, todos os dias! © Todos os direitos reservados</p>
-</footer>-->
-
-	
-</div>
+  <p>Eu linda sim, todos os dias! © Todos os direitos reservados</p>  
+</footer>
 
 </body>
 </html>
+
+
